@@ -1,0 +1,309 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    
+    line-height: 1.3rem;
+    margin-top: 0;
+	background-color: lightgrey;
+	margin-bottom: 10px;
+	margin-top: -10px;
+    
+}
+
+h1,h2,h3, a {  
+   
+font-family: 'Open Sans', arial;   
+    
+}
+
+
+p {
+    
+font-family: 'Times New Roman', arial; 
+
+}
+
+.container {
+    
+    width: 79%;
+    margin: 0 auto;
+}
+
+.container::after {   /*Met Ramon erop gezet*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+img{
+    width: 100%;
+}
+
+/***********  Base layout  *************/
+
+.name a,
+.main nav a {
+	padding: 10px 15px;
+    display: block;
+}
+
+.main-nav {
+    margin-top: 5px;
+    
+}
+
+nav ul li {
+	text-transform: uppercase;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+	font-weight: 100;
+}
+
+section {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.gallery {
+    margin-top: 1rem;
+}
+
+
+/****************link style*********************/
+
+a {
+    text-decoration: none;
+    
+}
+
+
+ul {
+    list-style:  none;
+}
+
+
+/*******************   Navigation       ***********************/
+
+.name {
+    
+    margin: 0;
+	padding-bottom: 0;
+}
+
+
+
+
+/*****************   style    ************************/
+
+.headline {
+    margin-bottom: 0;
+}
+
+.gallery {
+    margin-top: 50px;
+    
+}
+
+h3,
+p {
+    text-align: center;
+    margin: 0;
+    
+}
+
+.border {
+	background: lightgreen;
+	padding-top: 10px;
+}
+
+
+.title {
+    
+    margin-top: 0rem;
+}
+
+a {
+    color: black;
+}
+.introduction {
+    
+    margin-top: 2.5rem;
+}
+
+
+a:hover{
+    
+    color: blue;
+}
+
+.container {
+    
+    background-color: #fff;
+}
+
+
+/*************************  footer   ***********************/
+
+footer {
+    
+    font-size: 1.2rem;
+    text-align: center;
+    clear: both;
+    padding: 50px;
+
+}
+
+.foot {
+    margin: 10px;
+}
+
+//.border {
+    
+    margin-top: 10px;
+}
+
+/* clear fix*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  
+/*==========================Media  Queries ======================= ===============================================================*/
+
+
+@media (min-width: 768px) {
+    
+ .container {      /* .container      */
+    max-width: 90%;
+    margin: 0 auto;
+}
+ .name,   
+ .gallery {
+    float: left;
+}
+
+    .paragraph {
+        
+        padding-bottom: 3rem;
+    }
+        
+      
+    .header-image {
+        float: right;
+        max-width: 30%;
+        padding: 0;
+        margin-right: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+    
+    .information {
+        max-width: 55%;
+        float: left;
+        text-align: left;
+        font-size: 1.6rem;
+		padding-left: 15px;
+		margin-top: 50px;
+		color: blue;
+    }
+    
+.gallery {  
+    width: 50%;
+    
+}
+    
+ .main-nav {
+     margin-bottom: 20px;
+    text-align: right;    
+	margin-right: -25px;
+    }
+    
+    
+ .gallery {
+     display: inline-block;
+     margin-right: -4px;
+     vertical-align: top;
+	 padding-left: .5rem;
+	 padding-right: .5rem;
+}
+    
+    
+/*layout container*/
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+  
+.name,
+.main-nav,
+.main-nav li {
+    
+    display: inline-block;
+        
+}
+
+    
+.name {
+   float: left; 
+    width: 400px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	margin-top: -10px;
+}
+
+.main-nav {
+    
+    float: right;
+}
+    
+    
+ .main-nav li {
+   display: inline-block;  /*  float: left;*/   
+   } 
+    
+a {
+    
+    padding: 1.5rem;
+}
+}
+
+@media (min-width: 1025px) {
+.container {
+    width: 85%;
+    max-width: 1150px;
+        
+}
+
+.gallery    {
+    width: 33%;
+
+	
+}
+}
+        
+
+
+
+
+
+
+
+
+
+
+
