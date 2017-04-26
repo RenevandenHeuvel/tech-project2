@@ -7,7 +7,6 @@ body {
     
     line-height: 1.3rem;
     margin-top: 0;
-	background-color: lightgrey;
 	margin-bottom: 10px;
 	margin-top: -10px;
     
@@ -26,6 +25,22 @@ font-family: 'Times New Roman', arial;
 
 }
 
+.container1 {
+	background-color: #4abdac;
+}
+
+.container2 {
+	background-color: #fc4a1a;
+}
+
+.container3 {
+	background-color: #f7b733;
+}
+
+.container4 {
+	background-color: #dfdce3;
+}
+
 .container {
     
     width: 79%;
@@ -36,6 +51,10 @@ font-family: 'Times New Roman', arial;
     content: "";
     display: table;
     clear: both;
+}
+
+.intro {
+	width: 50%;
 }
 
 
@@ -68,6 +87,7 @@ nav ul li {
 h2 {
     text-align: center;
 	font-weight: 100;
+	
 }
 
 section {
@@ -123,7 +143,7 @@ p {
 }
 
 .border {
-	background: lightgreen;
+	
 	padding-top: 10px;
 }
 
@@ -135,10 +155,6 @@ p {
 
 a {
     color: black;
-}
-.introduction {
-    
-    margin-top: 2.5rem;
 }
 
 
@@ -195,29 +211,15 @@ footer {
     float: left;
 }
 
-    .paragraph {
+.paragraph {
         
         padding-bottom: 3rem;
     }
         
-      
     .header-image {
-        float: right;
         max-width: 30%;
-        padding: 0;
-        margin-right: 15px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-    }
-    
-    .information {
-        max-width: 55%;
-        float: left;
-        text-align: left;
-        font-size: 1.6rem;
-		padding-left: 15px;
-		margin-top: 50px;
-		color: blue;
+        padding-top: 40px;
+		padding-bottom: 40px;
     }
     
 .gallery {  
