@@ -4,12 +4,11 @@
 body {
 	line-height: 1.3rem;
 	margin-top: 0;
-	margin-top: -10px;
+	margin-top: -20px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	}
-	
+}
 h1, h2, h3, a {
 	font-family: 'Open Sans', arial;
 }
@@ -19,10 +18,10 @@ p {
 .intro {
 	display: block;
 	margin: 0 auto;
-	width: 50%;
+	width: 40%;
 	color: blue;
+	padding-bottom: 30px;
 }
-	
 .container1 {
 	background-color: #4abdac;
 }
@@ -38,11 +37,9 @@ p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-
 .container4 {
 	margin-top: 50px;
 }
-
 .container {
 	width: 79%;
 	margin: 0 auto;
@@ -56,27 +53,13 @@ p {
 img {
 	width: 100%;
 }
-
-.paragraph3,
-.paragraph6 {
+.paragraph3, .paragraph6 {
 	margin-bottom: 20px;
 }
 .paragraph4 {
 	margin-bottom: 40px;
 }
 
-//.page-image1,
-.page-image2,
-.page-image3,
-.page-image4,
-.page-image5,
-.page-image6 {
-	border: 2px solid green;
-}
-
-.gallery {
-	border: 2px solid green;
-}
 
 /***********  Base layout  *************/
 
@@ -90,7 +73,7 @@ img {
 }
 .main-nav {
 	margin-top: 5px;
-	padding-right: 10px;
+	padding-right: 40px;
 	margin-top: 20px;
 }
 nav ul li {
@@ -111,8 +94,6 @@ section {
 }
 .gallery {
 	margin-top: 1rem;
-	
-
 }
 
 /****************link style*********************/
@@ -129,7 +110,6 @@ ul {
 .headline {
 	margin-bottom: 0;
 }
-
 h3, p {
 	text-align: center;
 	margin: 0;
@@ -170,19 +150,13 @@ footer {
 /*==========================Media  Queries ======================= ===============================================================*/
 
 @media (min-width: 320px) {
-	.name,
-	.main-nav {
+	.name, .main-nav {
 		text-align: center;
 	}
-	
 	.name {
 		line-height: 1;
 	}
-	
-	
 }
-
-
 @media (min-width: 768px) {
 	.container {
 		/* .container      */
@@ -201,6 +175,8 @@ footer {
 		padding-bottom: 40px;
 		display: block;
 		margin: 0 auto;
+		float: right;
+		width: 50%;
 	}
 	.gallery {
 		width: 50%;
@@ -230,7 +206,7 @@ footer {
 		float: left;
 		width: 400px;
 		padding-bottom: 20px;
-		padding-left: 15px;
+		padding-left: 10px;
 		margin: 0;
 	}
 	.main-nav {
@@ -243,18 +219,10 @@ footer {
 	a {
 		padding: 1.5rem;
 	}
-	
 	.container4 .name a {
 		padding-top: 11px;
 	}
-	
-	.main-footer .main-nav {
-  
-  
-  
-}
-	
-
+	.main-footer .main-nav {}
 }
 @media (min-width: 1024px) {
 	.container {
