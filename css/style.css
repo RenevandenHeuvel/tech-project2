@@ -170,6 +170,15 @@ footer {
 /*==========================Media  Queries ======================= ===============================================================*/
 
 @media (min-width: 320px) {
+	.name,
+	.main-nav {
+		text-align: center;
+	}
+	
+	.name {
+		line-height: 1;
+	}
+	
 	
 }
 
@@ -200,6 +209,7 @@ footer {
 		margin-bottom: 20px;
 		text-align: right;
 		margin-right: -25px;
+		padding-left: 0px;
 	}
 	.gallery {
 		display: inline-block;
