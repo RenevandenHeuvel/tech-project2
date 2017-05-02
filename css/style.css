@@ -8,6 +8,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+	overflow-x: hidden;
 }
 h1, h2, h3, a {
 	font-family: 'Open Sans', arial;
@@ -15,16 +16,24 @@ h1, h2, h3, a {
 p {
 	font-family: 'Times New Roman', arial;
 }
+
 .intro {
 	display: block;
 	margin: 0 auto;
 	width: 40%;
 	color: blue;
 	padding-bottom: 30px;
+	margin-left: 100px;
+	padding-top: 100px;
 }
 .container1 {
 	background-color: #4abdac;
 }
+
+.imageintro {
+background-color: #4abdac;
+}
+
 .container2 {
 	background-color: #fc4a1a;
 	padding-bottom: 80px;
@@ -74,7 +83,6 @@ img {
 .main-nav {
 	margin-top: 5px;
 	padding-right: 40px;
-	margin-top: 20px;
 }
 nav ul li {
 	text-transform: uppercase;
@@ -170,22 +178,27 @@ footer {
 		padding-bottom: 3rem;
 	}
 	.header-image {
-		max-width: 30%;
+		max-width: 40%;
 		padding-top: 40px;
 		padding-bottom: 40px;
-		display: block;
+		display: block;	
 		margin: 0 auto;
 		float: right;
-		width: 50%;
+		padding-right: 100px;
 	}
-	.gallery {
+h1 {
+		margin-left: 50px;
+	}
+		.gallery {
 		width: 50%;
 	}
 	.main-nav {
 		margin-bottom: 20px;
 		text-align: right;
 		margin-right: -25px;
+		margin-top: 25px;
 		padding-left: 0px;
+		
 	}
 	.gallery {
 		display: inline-block;
@@ -211,6 +224,7 @@ footer {
 	}
 	.main-nav {
 		float: right;
+		padding-right: 100px;
 	}
 	.main-nav li {
 		display: inline-block;
@@ -222,7 +236,9 @@ footer {
 	.container4 .name a {
 		padding-top: 11px;
 	}
-	.main-footer .main-nav {}
+	.main-footer .main-nav {
+		
+	}
 }
 @media (min-width: 1024px) {
 	.container {
@@ -232,4 +248,16 @@ footer {
 	.gallery {
 		width: 33%;
 	}
+.name {
+		margin-left: 50px;
+	}
+.container4 .name {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	}
+	
+//.buttomnav .main-nav {
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
 }
