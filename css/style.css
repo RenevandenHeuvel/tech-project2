@@ -48,6 +48,7 @@ background-color: #4abdac;
 }
 .container4 {
 	margin-top: 50px;
+	margin-bottom: 10px;
 }
 .container {
 	width: 79%;
@@ -236,9 +237,8 @@ h1 {
 	.container4 .name a {
 		padding-top: 11px;
 	}
-	.main-footer .main-nav {
+	.buttomnav .main-nav {
 		
-	}
 }
 @media (min-width: 1024px) {
 	.container {
