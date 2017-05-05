@@ -172,7 +172,7 @@ footer {
 		max-width: 90%;
 		margin: 0 auto;
 	}
-	.name, .gallery {
+.gallery {
 		float: left;
 	}
 	.paragraph {
@@ -217,19 +217,17 @@ h1 {
 		display: inline-block;
 	}
 	.name {
-		float: left;
 		width: 400px;
-		padding-bottom: 20px;
-		padding-left: 10px;
-		margin: 0;
+		display: block;
+		margin: 0 auto;
 	}
 	.main-nav {
-		float: right;
 		padding-right: 100px;
+		text-align: center;
 	}
 	.main-nav li {
 		display: inline-block;
-		/*  float: left;*/
+		
 	}
 	a {
 		padding: 1.5rem;
